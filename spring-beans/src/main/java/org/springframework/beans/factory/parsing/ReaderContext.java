@@ -37,9 +37,7 @@ public class ReaderContext {
 	private final SourceExtractor sourceExtractor;
 
 
-	public ReaderContext(Resource resource, ProblemReporter problemReporter,
-			ReaderEventListener eventListener, SourceExtractor sourceExtractor) {
-
+	public ReaderContext(Resource resource, ProblemReporter problemReporter, ReaderEventListener eventListener, SourceExtractor sourceExtractor) {
 		this.resource = resource;
 		this.problemReporter = problemReporter;
 		this.eventListener = eventListener;
